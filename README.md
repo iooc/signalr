@@ -11,8 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+一个绝对可用的 Flutter 框架 signalr 客户端，仅支持 WebSocket 链接方式
 
 ## Features
 
