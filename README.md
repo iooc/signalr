@@ -16,7 +16,7 @@ know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+一个绝对可用的 Flutter 框架 signalr 客户端，仅支持 WebSocket 链接方式
 
 ## Getting started
 
