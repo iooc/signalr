@@ -15,24 +15,19 @@ and the Flutter guide for
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+与微软 .NET 6.0 时代 Javascript API 基本保持一致的使用体验。
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+按如下方式在 pubspec.yaml 文件中添加依赖
 
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  signalr:
+    git:
+      url: git://github.com/flutter/signalr.git
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+采用与 .NET 6 相同的 MIT 授权。
