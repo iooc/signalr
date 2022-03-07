@@ -1,3 +1,5 @@
+// ignore_for_file: slash_for_doc_comments
+
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';

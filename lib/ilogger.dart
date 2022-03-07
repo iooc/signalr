@@ -23,8 +23,9 @@ enum LogLevel {
   none,
 }
 
-/** An abstraction that provides a sink for diagnostic messages. */
+/// An abstraction that provides a sink for diagnostic messages. */
 abstract class ILogger {
+  // ignore: slash_for_doc_comments
   /** Called by the framework to emit a diagnostic message.
      *
      * @param {LogLevel} logLevel The severity level of the message.

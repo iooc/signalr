@@ -1,14 +1,16 @@
+// ignore_for_file: slash_for_doc_comments
+
 import 'dart:io';
 
-/** Options provided to the 'withUrl' method on {@link @microsoft/signalr.HubConnectionBuilder} to configure options for the HTTP-based transports. */
+/// Options provided to the 'withUrl' method on {@link @microsoft/signalr.HubConnectionBuilder} to configure options for the HTTP-based transports. */
 class HttpConnectionOptions {
-  /** {@link @microsoft/signalr.MessageHeaders} containing custom headers to be sent with every HTTP request. Note, setting headers in the browser will not work for WebSockets or the ServerSentEvents stream. */
+  /// {@link @microsoft/signalr.MessageHeaders} containing custom headers to be sent with every HTTP request. Note, setting headers in the browser will not work for WebSockets or the ServerSentEvents stream. */
   Map<String, String>? headers; //?: MessageHeaders;
 
   /** An {@link @microsoft/signalr.HttpClient} that will be used to make HTTP requests. */
   // HttpClient httpClient;//?: HttpClient;
 
-  /** An {@link @microsoft/signalr.HttpTransportType} value specifying the transport to use for the connection. */
+  /// An {@link @microsoft/signalr.HttpTransportType} value specifying the transport to use for the connection. */
   dynamic transport; //?: HttpTransportType | ITransport;
 
   /** Configures the logger used for logging.

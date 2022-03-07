@@ -1,4 +1,6 @@
-/** An abstraction that controls when the client attempts to reconnect and how many times it does so. */
+/// An abstraction that controls when the client attempts to reconnect and how many times it does so. */
+// ignore_for_file: slash_for_doc_comments
+
 abstract class IRetryPolicy {
   /** Called after the transport loses the connection.
      *
